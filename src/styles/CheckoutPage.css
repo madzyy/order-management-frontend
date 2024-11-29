@@ -1,0 +1,92 @@
+
+.checkout-page {
+  padding: 20px;
+  margin-left: 260px; 
+  max-width: 600px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+/* Smooth fade-in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+h2 {
+  color: #333; /* Slightly darker gray */
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+
+.checkout-details {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.checkout-details p {
+  margin: 10px 0;
+  line-height: 1.5;
+}
+
+
+.checkout-actions {
+  display: flex;
+  gap: 10px;
+}
+
+button.confirm-btn {
+  background: #6f42c1; /* Purple */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button.confirm-btn:hover {
+  background: #582a9a;
+}
+
+button.cancel-btn {
+  background: #f5f5f5; 
+  color: #333;
+  border: 1px solid #ddd;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background 0.3s ease, border-color 0.3s ease;
+}
+
+button.cancel-btn:hover {
+  background: #e0e0e0;
+  border-color: #bbb;
+}
+
+button.back-btn {
+  background: #6f42c1;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+}
+
+button.back-btn:hover {
+  background: #582a9a;
+}
